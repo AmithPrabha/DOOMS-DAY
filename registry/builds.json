@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-20T15:21:41.468639+00:00",
+  "builds": [
+    {
+      "platform": "android",
+      "flavor": "development",
+      "build": "eb985b70a7b5baeb",
+      "status": "passed",
+      "bytes": 223539333,
+      "sha256": "d3dd676243ab1942ea34079c770190fe194e19ead39ec6c1bdd1561a3694c827",
+      "bundle_id": null,
+      "development_registry": true,
+      "development_kernel_code": true,
+      "elf_16kb_checks": {
+        "lib/arm64-v8a/libVkLayer_khronos_validation.so": true,
+        "lib/arm64-v8a/libdartjni.so": true,
+        "lib/arm64-v8a/libflutter.so": true,
+        "lib/arm64-v8a/libmaplibre.so": true,
+        "lib/arm64-v8a/libsqlite3.so": true,
+        "lib/x86_64/libdartjni.so": true,
+        "lib/x86_64/libflutter.so": true,
+        "lib/x86_64/libmaplibre.so": true,
+        "lib/x86_64/libsqlite3.so": true
+      },
+      "log": "build/android-development.log",
+      "limitations": "Static inspection only. Debug size is not store-download size. No runtime, sensor, map or medical verification."
+    },
+    {
+      "platform": "android",
+      "flavor": "production",
+      "build": "eb985b70a7b5baeb",
+      "status": "passed",
+      "bytes": 223503642,
+      "sha256": "97703c8dc2b6aa1fa2e572e54017028dcf21d67d078bab3a2d2f98971bebd9b0",
+      "bundle_id": null,
+      "development_registry": false,
+      "development_kernel_code": false,
+      "elf_16kb_checks": {
+        "lib/arm64-v8a/libVkLayer_khronos_validation.so": true,
+        "lib/arm64-v8a/libdartjni.so": true,
+        "lib/arm64-v8a/libflutter.so": true,
+        "lib/arm64-v8a/libmaplibre.so": true,
+        "lib/arm64-v8a/libsqlite3.so": true,
+        "lib/x86_64/libdartjni.so": true,
+        "lib/x86_64/libflutter.so": true,
+        "lib/x86_64/libmaplibre.so": true,
+        "lib/x86_64/libsqlite3.so": true
+      },
+      "log": "build/android-production.log",
+      "limitations": "Static inspection only. Debug size is not store-download size. No runtime, sensor, map or medical verification."
+    },
+    {
+      "platform": "ios",
+      "flavor": "development",
+      "build": "eb985b70a7b5baeb",
+      "status": "passed",
+      "bytes": 154493384,
+      "sha256": null,
+      "bundle_id": "org.fieldkit.fieldkit.dev",
+      "development_registry": true,
+      "development_kernel_code": true,
+      "elf_16kb_checks": {},
+      "log": "build/ios-development.log",
+      "limitations": "Static inspection only. Debug size is not store-download size. No runtime, sensor, map or medical verification."
+    },
+    {
+      "platform": "ios",
+      "flavor": "production",
+      "build": "eb985b70a7b5baeb",
+      "status": "passed",
+      "bytes": 154428161,
+      "sha256": null,
+      "bundle_id": "org.fieldkit.fieldkit",
+      "development_registry": false,
+      "development_kernel_code": false,
+      "elf_16kb_checks": {},
+      "log": "build/ios-production.log",
+      "limitations": "Static inspection only. Debug size is not store-download size. No runtime, sensor, map or medical verification."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "publisher": null,
+  "application_id_confirmed": false,
+  "privacy_url": null,
+  "support_url": null,
+  "catalog_url": null,
+  "signing_configured": false,
+  "content_review_complete": false,
+  "translations_reviewed": false,
+  "extended_translations_complete": false,
+  "physical_devices_tested": false,
+  "production_artifact_inspected": false,
+  "store_disclosures_complete": false,
+  "licenses_reviewed": false,
+  "icons_and_screenshots_ready": false,
+  "personal_account_testing": "unknown",
+  "evidence": []
+}

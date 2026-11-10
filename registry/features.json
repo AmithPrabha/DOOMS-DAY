@@ -1,0 +1,385 @@
+[
+  {
+    "id": "F01",
+    "title": "Emergency shortcuts and handbook",
+    "purpose": "Draft content; expert review outstanding",
+    "dependencies": [
+      "F02",
+      "F03",
+      "F11"
+    ],
+    "source": "lib/features/handbook.dart",
+    "tests": [
+      "T01",
+      "T02",
+      "T23"
+    ],
+    "status": "implemented",
+    "notes": "Draft content; expert review outstanding"
+  },
+  {
+    "id": "F02",
+    "title": "Search, categories, aliases and bookmarks",
+    "purpose": "Full-text SQLite search; expanded translations pending",
+    "dependencies": [
+      "SQLite FTS5",
+      "Drift"
+    ],
+    "source": "lib/data/database.dart",
+    "tests": [
+      "T03",
+      "T04"
+    ],
+    "status": "implemented",
+    "notes": "Full-text SQLite search; expanded translations pending"
+  },
+  {
+    "id": "F03",
+    "title": "Nine languages, offline fonts and Arabic RTL",
+    "purpose": "Core labels and two starter cards per language; extended UI/content translation pending",
+    "dependencies": [
+      "Bundled Noto fonts",
+      "flutter_localizations"
+    ],
+    "source": "lib/app.dart",
+    "tests": [
+      "T05",
+      "T06"
+    ],
+    "status": "partial",
+    "notes": "Core labels and two starter cards per language; extended UI/content translation pending"
+  },
+  {
+    "id": "F04",
+    "title": "Themes, font scale and preferences",
+    "purpose": "Human accessibility review pending",
+    "dependencies": [
+      "Riverpod",
+      "SQLite preferences"
+    ],
+    "source": "lib/features/settings.dart",
+    "tests": [
+      "T05",
+      "T07"
+    ],
+    "status": "implemented",
+    "notes": "Human accessibility review pending"
+  },
+  {
+    "id": "F05",
+    "title": "Preparation checklist",
+    "purpose": "Saved locally",
+    "dependencies": [
+      "SQLite checklist"
+    ],
+    "source": "lib/features/handbook.dart",
+    "tests": [
+      "T07"
+    ],
+    "status": "implemented",
+    "notes": "Saved locally"
+  },
+  {
+    "id": "F06",
+    "title": "Download, resume and cancellation",
+    "purpose": "HTTP resumption requires device/host integration evidence",
+    "dependencies": [
+      "HTTPS catalog host",
+      "F07",
+      "F08"
+    ],
+    "source": "lib/services/packs.dart",
+    "tests": [
+      "T08",
+      "T09"
+    ],
+    "status": "implemented_unverified",
+    "notes": "HTTP resumption requires device/host integration evidence"
+  },
+  {
+    "id": "F07",
+    "title": "Pack integrity, safe updates and removal",
+    "purpose": "Publisher hosting not configured",
+    "dependencies": [
+      "archive",
+      "crypto",
+      "Drift transactions"
+    ],
+    "source": "lib/services/packs.dart",
+    "tests": [
+      "T10",
+      "T11",
+      "T04"
+    ],
+    "status": "implemented",
+    "notes": "Publisher hosting not configured"
+  },
+  {
+    "id": "F08",
+    "title": "Storage budget and free-space checks",
+    "purpose": "Native disk-space channel requires devices",
+    "dependencies": [
+      "Native free-space channel"
+    ],
+    "source": "lib/services/packs.dart",
+    "tests": [
+      "T09",
+      "T12"
+    ],
+    "status": "implemented_unverified",
+    "notes": "Native disk-space channel requires devices"
+  },
+  {
+    "id": "F09",
+    "title": "Offline MapLibre map packs",
+    "purpose": "Regional archive and real-device evidence required",
+    "dependencies": [
+      "MapLibre",
+      "Reviewed PMTiles packs",
+      "F07"
+    ],
+    "source": "lib/features/maps.dart",
+    "tests": [
+      "T13",
+      "T14"
+    ],
+    "status": "implemented_unverified",
+    "notes": "Regional archive and real-device evidence required"
+  },
+  {
+    "id": "F10",
+    "title": "GPS, compass and saved places",
+    "purpose": "Physical sensor tests pending",
+    "dependencies": [
+      "geolocator",
+      "Native compass adapters"
+    ],
+    "source": "lib/services/navigation.dart",
+    "tests": [
+      "T15",
+      "T16",
+      "T26"
+    ],
+    "status": "implemented_unverified",
+    "notes": "Physical sensor tests pending"
+  },
+  {
+    "id": "F11",
+    "title": "Medicine and specialist content",
+    "purpose": "Not clinical guidance; independent review blocks publication",
+    "dependencies": [
+      "Independent subject and language reviewers"
+    ],
+    "source": "assets/content/essential.json",
+    "tests": [
+      "T17"
+    ],
+    "status": "draft",
+    "notes": "Not clinical guidance; independent review blocks publication"
+  },
+  {
+    "id": "F12",
+    "title": "Development Test Center",
+    "purpose": "Production has separate entrypoint and assets; controlled device/network fixtures",
+    "dependencies": [
+      "Development flavor",
+      "F13"
+    ],
+    "source": "lib/development/test_center.dart",
+    "tests": [
+      "T18",
+      "T24"
+    ],
+    "status": "implemented",
+    "notes": "Production has separate entrypoint and assets; controlled device/network fixtures"
+  },
+  {
+    "id": "F13",
+    "title": "Local documentation and feature register",
+    "purpose": "Regenerate after every change",
+    "dependencies": [
+      "Python 3.10+",
+      "Feature/test registries"
+    ],
+    "source": "tools/docs.py",
+    "tests": [
+      "T19"
+    ],
+    "status": "implemented",
+    "notes": "Regenerate after every change"
+  },
+  {
+    "id": "F14",
+    "title": "Store readiness and privacy",
+    "purpose": "Publisher, hosting, declarations, signing and device evidence needed",
+    "dependencies": [
+      "Developer accounts",
+      "Signing",
+      "Hosting",
+      "Physical-device evidence",
+      "F11"
+    ],
+    "source": "tools/release.py",
+    "tests": [
+      "T20"
+    ],
+    "status": "blocked",
+    "notes": "Publisher, hosting, declarations, signing and device evidence needed"
+  },
+  {
+    "id": "F15",
+    "title": "Schema upgrades and recovery",
+    "purpose": "Migration fixtures included",
+    "dependencies": [
+      "Drift"
+    ],
+    "source": "lib/data/database.dart",
+    "tests": [
+      "T21"
+    ],
+    "status": "implemented",
+    "notes": "Migration fixtures included"
+  },
+  {
+    "id": "F16",
+    "title": "Nearby messaging",
+    "purpose": "Phase two: direct peer messaging; hardware integrations later",
+    "dependencies": [
+      "Future native transport",
+      "Peer security design",
+      "Store policy review"
+    ],
+    "source": "docs/architecture.md",
+    "tests": [
+      "T22"
+    ],
+    "status": "deferred",
+    "notes": "Phase two: direct peer messaging; hardware integrations later"
+  },
+  {
+    "id": "F17",
+    "title": "Dooms Day branding and quick controls",
+    "purpose": "Dooms Day branding and quick controls",
+    "dependencies": [
+      "F02",
+      "F11"
+    ],
+    "source": "lib/widgets/quick_header.dart",
+    "tests": [
+      "T25",
+      "T05",
+      "T23"
+    ],
+    "status": "implemented",
+    "notes": "Shared preference controller, native language names, adaptive header and regenerated platform icons."
+  },
+  {
+    "id": "F18",
+    "title": "Structured reader and code example export",
+    "purpose": "Structured reader and code example export",
+    "dependencies": [
+      "F02",
+      "F11"
+    ],
+    "source": "lib/features/handbook.dart",
+    "tests": [
+      "T28",
+      "T33"
+    ],
+    "status": "partial",
+    "notes": "TOC, steps, tables, code, image zoom and native example export implemented; full control localization and device export evidence outstanding."
+  },
+  {
+    "id": "F19",
+    "title": "48 practical guides in nine languages",
+    "purpose": "48 practical guides in nine languages",
+    "dependencies": [
+      "F02",
+      "F11"
+    ],
+    "source": "content/practical/en.json",
+    "tests": [
+      "T17",
+      "T31"
+    ],
+    "status": "in_progress",
+    "notes": "48 English drafts; eight additional language sets and all independent reviews outstanding."
+  },
+  {
+    "id": "F20",
+    "title": "Question-friendly knowledge search",
+    "purpose": "Question-friendly knowledge search",
+    "dependencies": [
+      "F02",
+      "F11"
+    ],
+    "source": "lib/data/knowledge_repository.dart",
+    "tests": [
+      "T27"
+    ],
+    "status": "partial",
+    "notes": "BM25, qualifier retention, nine-language question-prefix rules, pagination and debounce; curated multilingual aliases and archive integration pending."
+  },
+  {
+    "id": "F21",
+    "title": "Save individual Wikipedia articles offline",
+    "purpose": "Save individual Wikipedia articles offline",
+    "dependencies": [
+      "F02",
+      "F11"
+    ],
+    "source": "lib/services/wikipedia.dart",
+    "tests": [
+      "T28",
+      "T02"
+    ],
+    "status": "partial",
+    "notes": "Text-only supported article content, revision, license, attribution, update check and local saved links; selected-image downloads pending."
+  },
+  {
+    "id": "F22",
+    "title": "Native ZIM encyclopedia reader",
+    "purpose": "Native ZIM encyclopedia reader",
+    "dependencies": [
+      "F02",
+      "F11"
+    ],
+    "source": "native/zim/bridge.cpp",
+    "tests": [
+      "T30"
+    ],
+    "status": "prototype",
+    "notes": "Compiled Android arm64 and Apple slices; macOS fixture runtime passed. Not linked into app; mobile runtime, rendering and licensing gates pending."
+  },
+  {
+    "id": "F23",
+    "title": "Persistent large archive downloads",
+    "purpose": "Persistent large archive downloads",
+    "dependencies": [
+      "F02",
+      "F11"
+    ],
+    "source": "lib/data/database.dart",
+    "tests": [
+      "T32"
+    ],
+    "status": "not_implemented",
+    "notes": "Archive/job metadata schema and capacity-aware preference are present; OS background transfers, metalink acquisition and lifecycle recovery pending."
+  },
+  {
+    "id": "F24",
+    "title": "Reviewed regional food collections",
+    "purpose": "Reviewed regional food collections",
+    "dependencies": [
+      "F02",
+      "F11"
+    ],
+    "source": "content/food/in.json",
+    "tests": [
+      "T29",
+      "T31"
+    ],
+    "status": "blocked",
+    "notes": "Six regional editorial manifests; no identification packs published before real photographs, species data and specialist reviews."
+  }
+]

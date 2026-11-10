@@ -1,0 +1,22 @@
+{
+  "status": "prototype_only_not_distributed_with_app",
+  "archives": [
+    {
+      "url": "https://download.kiwix.org/release/libkiwix/libkiwix_xcframework-14.2.1-2.tar.gz",
+      "sha256": "14820648788dddc3df8a89ff0820af60d7efc1cfda6c83602989455263ee1561",
+      "destination": "apple"
+    },
+    {
+      "url": "https://download.openzim.org/release/libzim/libzim_android-arm64-9.8.2-1.tar.gz",
+      "sha256": "5cb930f1152e08ae62a5b989fa9725be2e13aa7ea566194e6702db016eaaa298",
+      "destination": "android"
+    }
+  ],
+  "release_requirements": [
+    "Compile and package all supported Android ABIs and both Apple device/simulator targets",
+    "Review all linked library licenses and provide corresponding source with build instructions",
+    "Audit Apple SDK and Google native 16 KB requirements on actual shipped artifacts",
+    "Verify archive reading, links, assets, memory, search latency and lifecycle on both physical platforms",
+    "Implement durable platform background download jobs and storage-failure recovery"
+  ]
+}

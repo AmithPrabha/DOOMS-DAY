@@ -1,0 +1,72 @@
+name: Verify Dooms Day App
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.44.4'
+          cache: true
+      - run: flutter pub get --enforce-lockfile
+      - run: python3 tools/check.py
+      - run: flutter analyze
+      - run: python3 tools/run_tests.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-evidence
+          path: |
+            build/flutter-tests.ndjson
+            build/python-tests.txt
+            registry/results.json
+            docs/guide.html
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.44.4'
+      - run: flutter pub get --enforce-lockfile
+      - run: python3 tools/verify_builds.py --platform android
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: android-inspection
+          path: |
+            build/inspection-android-*.json
+            build/android-*.log
+  ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.44.4'
+      - run: flutter pub get --enforce-lockfile
+      - run: flutter test test/golden_test.dart
+      - run: python3 tools/verify_builds.py --platform ios
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ios-inspection
+          path: |
+            build/inspection-ios-*.json
+            build/ios-*.log

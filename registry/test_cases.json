@@ -1,0 +1,750 @@
+[
+  {
+    "id": "T01",
+    "title": "First launch offline",
+    "feature_ids": [
+      "F01"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/database_test.dart",
+      "First launch offline",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Essential starter cards open without network on first device launch",
+    "type": "mixed",
+    "source": "test/database_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T02",
+    "title": "Cold restart offline",
+    "feature_ids": [
+      "F01"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/database_test.dart",
+      "Cold restart offline",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Content, illustrations, bookmarks, search and installed maps survive a device restart offline",
+    "type": "mixed",
+    "source": "test/database_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T03",
+    "title": "Alias and punctuation search",
+    "feature_ids": [
+      "F02"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/database_test.dart",
+      "Alias and punctuation search",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "APAP finds acetaminophen; malformed search input cannot break SQL",
+    "type": "automated",
+    "source": "test/database_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T04",
+    "title": "Pack removal",
+    "feature_ids": [
+      "F02",
+      "F07"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/database_test.dart",
+      "Pack removal",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Search is updated; bookmarks survive removal and reinstall",
+    "type": "automated",
+    "source": "test/database_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T05",
+    "title": "Text, theme and RTL layouts",
+    "feature_ids": [
+      "F03",
+      "F04"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/ui_test.dart",
+      "Text, theme and RTL layouts",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Core screens render in nine languages at large text without overflow",
+    "type": "automated",
+    "source": "test/ui_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T06",
+    "title": "Offline glyph rendering",
+    "feature_ids": [
+      "F03"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow docs/testing.md",
+      "Offline glyph rendering",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "All scripts are readable on physical devices with networking disabled",
+    "type": "manual",
+    "source": "docs/testing.md",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T07",
+    "title": "Preferences and checklist",
+    "feature_ids": [
+      "F04",
+      "F05"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/database_test.dart",
+      "Preferences and checklist",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Preferences and checklist survive restart",
+    "type": "automated",
+    "source": "test/database_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T08",
+    "title": "Interrupted HTTP download",
+    "feature_ids": [
+      "F06"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow docs/testing.md",
+      "Interrupted HTTP download",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Partial downloads resume correctly after network interruption",
+    "type": "manual",
+    "source": "docs/testing.md",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T09",
+    "title": "Cancellation and network policy",
+    "feature_ids": [
+      "F06",
+      "F08"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow docs/testing.md",
+      "Cancellation and network policy",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Wi-Fi-only is respected; cancellation leaves resumable data",
+    "type": "manual",
+    "source": "docs/testing.md",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T10",
+    "title": "Corruption, traversal and collision",
+    "feature_ids": [
+      "F07"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/packs_test.dart",
+      "Corruption, traversal and collision",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Invalid packages cannot replace working content or write outside storage",
+    "type": "automated",
+    "source": "test/packs_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T11",
+    "title": "Atomic activation",
+    "feature_ids": [
+      "F07"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/packs_test.dart",
+      "Atomic activation",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Failed installation preserves previous working version and search",
+    "type": "automated",
+    "source": "test/packs_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T12",
+    "title": "Low storage",
+    "feature_ids": [
+      "F08"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow docs/testing.md",
+      "Low storage",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Insufficient disk space prevents writes without losing installed content",
+    "type": "manual",
+    "source": "docs/testing.md",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T13",
+    "title": "Offline map and cache cleanup",
+    "feature_ids": [
+      "F09"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow docs/testing.md",
+      "Offline map and cache cleanup",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Map geometry, labels and sprites survive restart and cache cleanup",
+    "type": "manual",
+    "source": "docs/testing.md",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T14",
+    "title": "Map integrity",
+    "feature_ids": [
+      "F09"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/packs_test.dart",
+      "Map integrity",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Missing map resources invalidate readiness",
+    "type": "automated",
+    "source": "test/packs_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T15",
+    "title": "Permissions and absent sensors",
+    "feature_ids": [
+      "F10"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow docs/testing.md",
+      "Permissions and absent sensors",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Denied GPS or missing compass produces a useful fallback",
+    "type": "manual",
+    "source": "docs/testing.md",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T16",
+    "title": "Coordinate validation and bearing",
+    "feature_ids": [
+      "F10"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/navigation_test.dart",
+      "Coordinate validation and bearing",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Invalid coordinates are rejected; known distances and bearings are correct",
+    "type": "automated",
+    "source": "test/navigation_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T17",
+    "title": "Content review and publication",
+    "feature_ids": [
+      "F11"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow tools/test_tools.py",
+      "Content review and publication",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Incomplete provenance, missing images or unreviewed content block publication",
+    "type": "automated",
+    "source": "tools/test_tools.py",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T18",
+    "title": "Production development exclusion",
+    "feature_ids": [
+      "F12"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow tools/check.py",
+      "Production development exclusion",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Production entrypoint cannot reach development tools; asset inspection excludes test fixtures",
+    "type": "mixed",
+    "source": "tools/check.py",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T19",
+    "title": "Documentation navigation",
+    "feature_ids": [
+      "F13"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow tools/test_tools.py",
+      "Documentation navigation",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Links, source paths and feature-to-test references resolve",
+    "type": "automated",
+    "source": "tools/test_tools.py",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T20",
+    "title": "Store release gate",
+    "feature_ids": [
+      "F14"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow tools/test_tools.py",
+      "Store release gate",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Missing evidence prevents production release packaging",
+    "type": "automated",
+    "source": "tools/test_tools.py",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T21",
+    "title": "Migration from previous database",
+    "feature_ids": [
+      "F15"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/database_test.dart",
+      "Migration from previous database",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Schema upgrades preserve personal data and installed pack metadata",
+    "type": "automated",
+    "source": "test/database_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T22",
+    "title": "Nearby communication",
+    "feature_ids": [
+      "F16"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow docs/architecture.md",
+      "Nearby communication",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Android/iPhone peers connect with consent and accurate delivery status",
+    "type": "deferred",
+    "source": "docs/architecture.md",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T23",
+    "title": "Visual regression baselines",
+    "feature_ids": [
+      "F01"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/golden_test.dart",
+      "Visual regression baselines",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "English/light and Arabic/dark emergency screens match reviewed macOS baselines",
+    "type": "automated",
+    "source": "test/golden_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T24",
+    "title": "Controlled device and network fixtures",
+    "feature_ids": [
+      "F12"
+    ],
+    "prerequisites": "Pinned toolchain and development fixtures; physical device for manual cases",
+    "steps": [
+      "Follow test/fixtures_test.dart",
+      "Controlled device and network fixtures",
+      "Compare actual outcome with expected result"
+    ],
+    "expected": "Missing compass and denied GPS show fallback; unavailable catalog preserves content",
+    "type": "automated",
+    "source": "test/fixtures_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T25",
+    "title": "Quick controls synchronize and persist",
+    "feature_ids": [
+      "F17"
+    ],
+    "prerequisites": "Development build with controlled fixtures; physical device where specified",
+    "steps": [
+      "Toggle from system appearance, select Arabic at 200% on 320px width, open Settings and inspect persisted database."
+    ],
+    "expected": "Theme and language match between toolbar, Settings and saved preferences; controls remain at least 48 logical pixels.",
+    "type": "automated",
+    "source": "test/upgrade_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T26",
+    "title": "Compass geometry, wraparound and missing sensors",
+    "feature_ids": [
+      "F10",
+      "F17"
+    ],
+    "prerequisites": "Development build with controlled fixtures; physical device where specified",
+    "steps": [
+      "Exercise 0, 90, 180, 270, 359 to 0 and absent readings; compare portrait and landscape against a reference on both devices."
+    ],
+    "expected": "Shortest-path rotation and correct directions, no fabricated heading, geometry unchanged in Arabic; physical orientation evidence required.",
+    "type": "mixed",
+    "source": "test/upgrade_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T27",
+    "title": "Question retrieval and pagination",
+    "feature_ids": [
+      "F20"
+    ],
+    "prerequisites": "Development build with controlled fixtures; physical device where specified",
+    "steps": [
+      "Search brown rice and Python questions; normalize a negative condition; fetch adjacent result pages."
+    ],
+    "expected": "Relevant results retain qualifiers, draft material is not an approved answer, pages do not overlap.",
+    "type": "automated",
+    "source": "test/upgrade_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T28",
+    "title": "External text import and offline search",
+    "feature_ids": [
+      "F18",
+      "F21"
+    ],
+    "prerequisites": "Development build with controlled fixtures; physical device where specified",
+    "steps": [
+      "Parse hostile HTML fixture, save with revision, bookmark, update, then search locally."
+    ],
+    "expected": "Scripts and remote resources cannot execute; textual content, attribution, revision and bookmark persist.",
+    "type": "automated",
+    "source": "test/upgrade_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T29",
+    "title": "Food photograph publication gate",
+    "feature_ids": [
+      "F24"
+    ],
+    "prerequisites": "Development build with controlled fixtures; physical device where specified",
+    "steps": [
+      "Validate identification article with absent photos, wrong media hash or incomplete specialist review."
+    ],
+    "expected": "Missing reference photographs and required reviews block publication; ordinary guides may omit decorative images.",
+    "type": "automated",
+    "source": "test/upgrade_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T30",
+    "title": "Native archive prototype and mobile reader",
+    "feature_ids": [
+      "F22"
+    ],
+    "prerequisites": "Development build with controlled fixtures; physical device where specified",
+    "steps": [
+      "Build native probes, inspect/search/read synthetic archive, then repeat on physical iOS and Android with a large archive."
+    ],
+    "expected": "Host fixture checks pass; mobile correctness, bounded memory and full archive usability require separate recorded evidence.",
+    "type": "mixed",
+    "source": "tools/test_zim_prototype.py",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T31",
+    "title": "Practical translations and regional editorial reviews",
+    "feature_ids": [
+      "F19",
+      "F24"
+    ],
+    "prerequisites": "Development build with controlled fixtures; physical device where specified",
+    "steps": [
+      "Compare all 48 IDs across nine languages; inspect each regional collection with qualified content and translation reviewers."
+    ],
+    "expected": "Complete actionable translations and reviewed regional entries/photos; no fabricated review status.",
+    "type": "manual",
+    "source": "registry/content_coverage.json",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T32",
+    "title": "Large archive background transfer and recovery",
+    "feature_ids": [
+      "F23"
+    ],
+    "prerequisites": "Development build with controlled fixtures; physical device where specified",
+    "steps": [
+      "Interrupt app/process/network during a large transfer; cancel, resume, corrupt and exhaust storage; verify prior archive survives."
+    ],
+    "expected": "Native jobs persist and recover; integrity and atomic replacement protect previous content. Currently not implemented.",
+    "type": "manual",
+    "source": "native/zim/README.md",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  },
+  {
+    "id": "T33",
+    "title": "Reader contents, code, gallery and document export",
+    "feature_ids": [
+      "F18"
+    ],
+    "prerequisites": "Development build with controlled fixtures; physical device where specified",
+    "steps": [
+      "Open a practical guide, navigate contents, read code/table, zoom illustration and export supplies.py on both devices."
+    ],
+    "expected": "No clipping at 200%; code remains reference-only; exported file opens on another computer and no unrelated data is exposed.",
+    "type": "mixed",
+    "source": "test/upgrade_test.dart",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "build": null,
+    "outcome": "not_run",
+    "evidence": []
+  }
+]

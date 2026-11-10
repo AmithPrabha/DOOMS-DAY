@@ -1,0 +1,1692 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0-draft",
+  "articles": [
+    {
+      "id": "prepare",
+      "title": "Before an emergency",
+      "category": "preparedness",
+      "summary": "Prepare your essentials",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "preparedness",
+        "prepare"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Save contacts offline.",
+            "Pack water and prescribed medicines.",
+            "Choose a meeting place."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.ready.gov/kit"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "lost",
+      "title": "When you are lost",
+      "category": "wilderness",
+      "summary": "Pause and assess",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "wilderness",
+        "lost"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Stop in a safe place.",
+            "Conserve battery.",
+            "Signal your location."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.nps.gov/articles/000/hiking-safety.htm"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/compass.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "prepare",
+      "title": "قبل الطوارئ",
+      "category": "preparedness",
+      "summary": "جهّز الضروريات",
+      "language": "ar",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "preparedness",
+        "prepare"
+      ],
+      "sections": [
+        {
+          "heading": "تعلّم وأصلح",
+          "steps": [
+            "احفظ جهات الاتصال دون إنترنت.",
+            "جهّز الماء وأدويتك الموصوفة.",
+            "حدد مكانًا للقاء."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.ready.gov/kit"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "lost",
+      "title": "عندما تضل الطريق",
+      "category": "wilderness",
+      "summary": "توقف وقيّم الوضع",
+      "language": "ar",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "wilderness",
+        "lost"
+      ],
+      "sections": [
+        {
+          "heading": "تعلّم وأصلح",
+          "steps": [
+            "توقف في مكان آمن.",
+            "حافظ على البطارية.",
+            "أشر إلى موقعك."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.nps.gov/articles/000/hiking-safety.htm"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/compass.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "prepare",
+      "title": "അടിയന്തരാവസ്ഥയ്ക്ക് മുമ്പ്",
+      "category": "preparedness",
+      "summary": "അവശ്യവസ്തുക്കൾ തയ്യാറാക്കുക",
+      "language": "ml",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "preparedness",
+        "prepare"
+      ],
+      "sections": [
+        {
+          "heading": "പഠിക്കൂ നന്നാക്കൂ",
+          "steps": [
+            "ബന്ധപ്പെടാനുള്ള വിവരങ്ങൾ ഓഫ്‌ലൈനിൽ സൂക്ഷിക്കുക.",
+            "വെള്ളവും നിർദേശിച്ച മരുന്നുകളും കരുതുക.",
+            "കണ്ടുമുട്ടാനുള്ള സ്ഥലം നിശ്ചയിക്കുക."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.ready.gov/kit"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "lost",
+      "title": "വഴി തെറ്റിയാൽ",
+      "category": "wilderness",
+      "summary": "നിർത്തി വിലയിരുത്തുക",
+      "language": "ml",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "wilderness",
+        "lost"
+      ],
+      "sections": [
+        {
+          "heading": "പഠിക്കൂ നന്നാക്കൂ",
+          "steps": [
+            "സുരക്ഷിതമായ സ്ഥലത്ത് നിൽക്കുക.",
+            "ബാറ്ററി ലാഭിക്കുക.",
+            "സ്ഥാനം അറിയിക്കാൻ അടയാളം നൽകുക."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.nps.gov/articles/000/hiking-safety.htm"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/compass.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "prepare",
+      "title": "आपातकाल से पहले",
+      "category": "preparedness",
+      "summary": "ज़रूरी सामान तैयार करें",
+      "language": "hi",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "preparedness",
+        "prepare"
+      ],
+      "sections": [
+        {
+          "heading": "सीखें और मरम्मत करें",
+          "steps": [
+            "संपर्क ऑफ़लाइन सहेजें।",
+            "पानी और निर्धारित दवाएँ रखें।",
+            "मिलने का स्थान तय करें।"
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.ready.gov/kit"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "lost",
+      "title": "रास्ता भटकने पर",
+      "category": "wilderness",
+      "summary": "रुकें और स्थिति समझें",
+      "language": "hi",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "wilderness",
+        "lost"
+      ],
+      "sections": [
+        {
+          "heading": "सीखें और मरम्मत करें",
+          "steps": [
+            "सुरक्षित स्थान पर रुकें।",
+            "बैटरी बचाएँ।",
+            "अपनी जगह का संकेत दें।"
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.nps.gov/articles/000/hiking-safety.htm"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/compass.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "prepare",
+      "title": "அவசரநிலைக்கு முன்",
+      "category": "preparedness",
+      "summary": "அத்தியாவசியங்களைத் தயார் செய்யவும்",
+      "language": "ta",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "preparedness",
+        "prepare"
+      ],
+      "sections": [
+        {
+          "heading": "கற்றலும் பழுதுபார்ப்பும்",
+          "steps": [
+            "தொடர்புகளை ஆஃப்லைனில் சேமிக்கவும்.",
+            "தண்ணீரும் பரிந்துரைக்கப்பட்ட மருந்துகளும் வைத்திருக்கவும்.",
+            "சந்திக்கும் இடத்தை முடிவுசெய்யவும்."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.ready.gov/kit"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "lost",
+      "title": "வழி தவறினால்",
+      "category": "wilderness",
+      "summary": "நின்று நிலையை ஆராயவும்",
+      "language": "ta",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "wilderness",
+        "lost"
+      ],
+      "sections": [
+        {
+          "heading": "கற்றலும் பழுதுபார்ப்பும்",
+          "steps": [
+            "பாதுகாப்பான இடத்தில் நிற்கவும்.",
+            "பேட்டரியைச் சேமிக்கவும்.",
+            "இருப்பிடத்தை உணர்த்தவும்."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.nps.gov/articles/000/hiking-safety.htm"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/compass.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "prepare",
+      "title": "అత్యవసర పరిస్థితికి ముందు",
+      "category": "preparedness",
+      "summary": "అవసరమైనవి సిద్ధం చేయండి",
+      "language": "te",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "preparedness",
+        "prepare"
+      ],
+      "sections": [
+        {
+          "heading": "నేర్చుకోండి మరమ్మతు చేయండి",
+          "steps": [
+            "పరిచయాలను ఆఫ్‌లైన్‌లో భద్రపరచండి.",
+            "నీరు మరియు సూచించిన మందులు ఉంచండి.",
+            "కలిసే ప్రదేశాన్ని ఎంచుకోండి."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.ready.gov/kit"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "lost",
+      "title": "దారి తప్పినప్పుడు",
+      "category": "wilderness",
+      "summary": "ఆగి పరిస్థితిని అంచనా వేయండి",
+      "language": "te",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "wilderness",
+        "lost"
+      ],
+      "sections": [
+        {
+          "heading": "నేర్చుకోండి మరమ్మతు చేయండి",
+          "steps": [
+            "సురక్షిత ప్రదేశంలో ఆగండి.",
+            "బ్యాటరీని ఆదా చేయండి.",
+            "మీ స్థానాన్ని సూచించండి."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.nps.gov/articles/000/hiking-safety.htm"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/compass.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "prepare",
+      "title": "Antes de una emergencia",
+      "category": "preparedness",
+      "summary": "Prepara lo esencial",
+      "language": "es",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "preparedness",
+        "prepare"
+      ],
+      "sections": [
+        {
+          "heading": "Aprender y reparar",
+          "steps": [
+            "Guarda contactos sin conexión.",
+            "Lleva agua y medicamentos recetados.",
+            "Acuerda un punto de encuentro."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.ready.gov/kit"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "lost",
+      "title": "Si te pierdes",
+      "category": "wilderness",
+      "summary": "Detente y evalúa",
+      "language": "es",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "wilderness",
+        "lost"
+      ],
+      "sections": [
+        {
+          "heading": "Aprender y reparar",
+          "steps": [
+            "Detente en un lugar seguro.",
+            "Ahorra batería.",
+            "Señala tu ubicación."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.nps.gov/articles/000/hiking-safety.htm"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/compass.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "prepare",
+      "title": "Avant une urgence",
+      "category": "preparedness",
+      "summary": "Préparez l’essentiel",
+      "language": "fr",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "preparedness",
+        "prepare"
+      ],
+      "sections": [
+        {
+          "heading": "Apprendre et réparer",
+          "steps": [
+            "Enregistrez vos contacts hors connexion.",
+            "Prévoyez eau et médicaments prescrits.",
+            "Choisissez un lieu de rendez-vous."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.ready.gov/kit"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "lost",
+      "title": "Si vous êtes perdu",
+      "category": "wilderness",
+      "summary": "Arrêtez-vous et évaluez",
+      "language": "fr",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "wilderness",
+        "lost"
+      ],
+      "sections": [
+        {
+          "heading": "Apprendre et réparer",
+          "steps": [
+            "Arrêtez-vous dans un endroit sûr.",
+            "Économisez la batterie.",
+            "Signalez votre position."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.nps.gov/articles/000/hiking-safety.htm"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/compass.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "prepare",
+      "title": "До чрезвычайной ситуации",
+      "category": "preparedness",
+      "summary": "Подготовьте необходимое",
+      "language": "ru",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "preparedness",
+        "prepare"
+      ],
+      "sections": [
+        {
+          "heading": "Обучение и ремонт",
+          "steps": [
+            "Сохраните контакты без интернета.",
+            "Запасите воду и назначенные лекарства.",
+            "Выберите место встречи."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.ready.gov/kit"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "lost",
+      "title": "Если вы заблудились",
+      "category": "wilderness",
+      "summary": "Остановитесь и оцените обстановку",
+      "language": "ru",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "wilderness",
+        "lost"
+      ],
+      "sections": [
+        {
+          "heading": "Обучение и ремонт",
+          "steps": [
+            "Остановитесь в безопасном месте.",
+            "Берегите заряд батареи.",
+            "Обозначьте своё местоположение."
+          ]
+        }
+      ],
+      "cautions": [],
+      "sources": [
+        "https://www.nps.gov/articles/000/hiking-safety.htm"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/compass.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "flood",
+      "title": "Flood: move away from rising water",
+      "category": "disasters",
+      "summary": "Recognize immediate danger and choose a safer location.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "disasters",
+        "flood"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Move to higher ground when safe and follow local evacuation directions.",
+            "Avoid walking or driving through floodwater; depth and road damage can be hidden.",
+            "Keep away from fallen wires and electrical equipment exposed to water."
+          ]
+        }
+      ],
+      "cautions": [
+        "A saved map cannot tell you whether a road is passable."
+      ],
+      "sources": [
+        "https://www.ready.gov/floods"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/flood.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "earthquake",
+      "title": "Earthquake: protect yourself during shaking",
+      "category": "disasters",
+      "summary": "Reduce exposure to falling objects.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "disasters",
+        "earthquake"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Drop, take cover under sturdy furniture if available, and hold on.",
+            "Stay away from windows. Do not rush outside during shaking.",
+            "After shaking stops, check for hazards and be ready for aftershocks."
+          ]
+        }
+      ],
+      "cautions": [
+        "Adapt protective actions to your mobility and immediate surroundings."
+      ],
+      "sources": [
+        "https://www.ready.gov/earthquakes"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/shelter.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "desert",
+      "title": "Lost in a desert",
+      "category": "wilderness",
+      "summary": "Reduce heat exposure while making yourself easier to find.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "wilderness",
+        "desert"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Seek shade and avoid unnecessary exertion in the hottest part of the day.",
+            "If a vehicle is in a safe location, staying with it can make you easier to locate.",
+            "Record your coordinates and signal rescuers when possible; do not rely on mobile reception."
+          ]
+        }
+      ],
+      "cautions": [
+        "Confusion, collapse, or severe illness needs urgent help. There is no universal survival countdown."
+      ],
+      "sources": [
+        "https://www.nps.gov/deva/planyourvisit/safety.htm"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/compass.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "water",
+      "title": "Water: treatment and storage",
+      "category": "water",
+      "summary": "Match treatment to the contamination risk.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "water",
+        "water"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Use a known safe water source when available.",
+            "For microbial contamination, boil clear water for one minute; above 6,500 feet use three minutes.",
+            "Cool safely and store in clean, covered food-grade containers."
+          ]
+        }
+      ],
+      "cautions": [
+        "Boiling and disinfection do not make fuel- or toxic-chemical-contaminated water safe.",
+        "A cloth removes sediment, not all pathogens."
+      ],
+      "sources": [
+        "https://www.cdc.gov/water-emergency/about/index.html"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/water.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "distillation",
+      "title": "Distillation: understand the limits",
+      "category": "water",
+      "summary": "A reference to the process, equipment, and limitations.",
+      "language": "en",
+      "level": "advanced",
+      "region": "Global",
+      "audience": "Trained readers",
+      "prerequisites": [
+        "Purpose-built distiller",
+        "Safe power or heat source"
+      ],
+      "aliases": [],
+      "keywords": [
+        "water",
+        "distillation"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Distillation evaporates water and collects condensed vapor in a separate clean container.",
+            "Use equipment designed for the process and follow its instructions.",
+            "Protect treated water from recontamination."
+          ]
+        }
+      ],
+      "cautions": [
+        "Some volatile contaminants can pass into the condensate. Unknown contamination requires a safer source.",
+        "Never heat a sealed improvised vessel. Steam and hot surfaces cause burns."
+      ],
+      "sources": [
+        "https://www.cdc.gov/drinking-water/about/about-home-water-treatment-systems.html"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/water.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "first-aid",
+      "title": "First aid: assess before helping",
+      "category": "medical",
+      "summary": "Start with scene safety and request qualified help.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "medical",
+        "first aid"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Check for hazards before approaching an injured person.",
+            "Contact available emergency services and follow dispatcher instructions.",
+            "Use first-aid techniques you have been trained to perform."
+          ]
+        }
+      ],
+      "cautions": [
+        "This reference is not a medical device and does not diagnose or treat conditions.",
+        "Seek professional medical advice before making medical decisions."
+      ],
+      "sources": [
+        "https://www.redcross.org/take-a-class/first-aid/performing-first-aid"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "paracetamol",
+      "title": "Paracetamol / acetaminophen",
+      "category": "medicines",
+      "summary": "General medicine reference: pain and fever relief.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [
+        "acetaminophen",
+        "paracetamol",
+        "APAP"
+      ],
+      "keywords": [
+        "medicines",
+        "paracetamol"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Check the active ingredients in every product; combination cold medicines may contain the same ingredient.",
+            "Follow the product label and your clinician's instructions.",
+            "Keep the original packaging and protect medicines from excess heat and moisture."
+          ]
+        }
+      ],
+      "cautions": [
+        "Too much acetaminophen can cause severe liver damage. Suspected overdose needs urgent medical help even without symptoms.",
+        "Ask a clinician about liver disease, alcohol use, interactions, pregnancy, or treatment for a child."
+      ],
+      "sources": [
+        "https://medlineplus.gov/druginfo/meds/a681004.html"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": [],
+      "medicine": {
+        "generic_name": "Acetaminophen",
+        "uses": [
+          "Pain",
+          "Fever"
+        ],
+        "interactions": [
+          "Review all medicines with a clinician or pharmacist"
+        ],
+        "storage": "Follow the specific product label",
+        "dose_calculator": false
+      }
+    },
+    {
+      "id": "outbreak",
+      "title": "Outbreaks: reduce exposure",
+      "category": "outbreaks",
+      "summary": "Use disease-specific advice from health authorities.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "outbreaks",
+        "outbreak"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Wash hands and keep drinking water and food preparation hygienic.",
+            "Improve ventilation where appropriate for respiratory infections.",
+            "Plan how a sick household member can receive care and seek help."
+          ]
+        }
+      ],
+      "cautions": [
+        "This downloaded article is not a live outbreak alert. Precautions differ by disease."
+      ],
+      "sources": [
+        "https://www.cdc.gov/respiratory-viruses/prevention/index.html"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "foraging",
+      "title": "Foraging: identification comes first",
+      "category": "food",
+      "summary": "Regional expertise matters more than a resemblance in a picture.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "food",
+        "foraging"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Learn local species with a qualified expert before an emergency.",
+            "Compare multiple distinguishing features and poisonous lookalikes.",
+            "Use familiar, safely stored food when identification is uncertain."
+          ]
+        }
+      ],
+      "cautions": [
+        "Do not eat an unknown plant or mushroom based on this app or an image.",
+        "This starter pack contains no verified edible-species identification guide."
+      ],
+      "sources": [
+        "https://www.poison.org/articles/plant"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "cooking",
+      "title": "Cooking during a power outage",
+      "category": "cooking",
+      "summary": "Prepare food without introducing fuel or contamination hazards.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "cooking",
+        "cooking"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Choose shelf-stable foods that need little preparation.",
+            "Keep raw and ready-to-eat foods separate and clean tools with safe water.",
+            "Use cooking equipment only in locations allowed by its manufacturer."
+          ]
+        }
+      ],
+      "cautions": [
+        "Charcoal grills and fuel-burning camping stoves must not be used indoors or in enclosed spaces."
+      ],
+      "sources": [
+        "https://www.cdc.gov/carbon-monoxide/about/index.html"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "food-storage",
+      "title": "Food storage when refrigeration fails",
+      "category": "cooking",
+      "summary": "Protect food before and during outages.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "cooking",
+        "food storage"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Keep refrigerator and freezer doors closed as much as possible.",
+            "Use an appliance thermometer and follow food-specific time and temperature guidance.",
+            "Discard food when safety is uncertain; tasting cannot determine safety."
+          ]
+        }
+      ],
+      "cautions": [
+        "Preservation methods need validated recipes and equipment. Do not improvise canning procedures."
+      ],
+      "sources": [
+        "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "sanitation",
+      "title": "Sanitation when services are interrupted",
+      "category": "sanitation",
+      "summary": "Separate waste, drinking water, and food.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "sanitation",
+        "sanitation"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Choose a waste arrangement compatible with local conditions and public-health advice.",
+            "Keep waste away from water sources and food storage.",
+            "Maintain a hand-cleaning station with safe water and soap."
+          ]
+        }
+      ],
+      "cautions": [
+        "Floodwater and sewage may carry hazardous contamination."
+      ],
+      "sources": [
+        "https://www.cdc.gov/water-emergency/about/index.html"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "electronics",
+      "title": "A low-voltage device will not charge",
+      "category": "electronics",
+      "summary": "Check simple causes before opening equipment.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [
+        "Manufacturer instructions",
+        "Compatible charging cable"
+      ],
+      "aliases": [],
+      "keywords": [
+        "electronics",
+        "electronics"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Disconnect the device and inspect accessible cables for damage.",
+            "Try a known compatible cable and power source if safe.",
+            "Consult the device's model-specific manual before disassembly."
+          ]
+        }
+      ],
+      "cautions": [
+        "Stop if a battery is swollen, leaking, unusually hot, or damaged.",
+        "Do not open mains power supplies or repair live electrical equipment."
+      ],
+      "sources": [
+        "https://www.ifixit.com/Wiki/Lithium-ion_Battery_Safety"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/repair.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "mechanical",
+      "title": "Mechanical troubleshooting",
+      "category": "mechanical",
+      "summary": "Inspect before replacing parts.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "mechanical",
+        "mechanical"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Make the equipment stable and isolate its energy sources.",
+            "Check visible fasteners, obstructions, wear, and alignment.",
+            "Record the model and symptoms, then follow its service manual."
+          ]
+        }
+      ],
+      "cautions": [
+        "Springs, pressure, heat, and suspended loads can store energy even when power is off.",
+        "Safety-critical brakes, steering, and lifting equipment require competent inspection."
+      ],
+      "sources": [
+        "https://www.osha.gov/control-hazardous-energy"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/repair.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "solar",
+      "title": "Planning a small solar charging setup",
+      "category": "electronics",
+      "summary": "Check compatibility across the whole power chain.",
+      "language": "en",
+      "level": "advanced",
+      "region": "Global",
+      "audience": "Trained readers",
+      "prerequisites": [
+        "Rated panel",
+        "Compatible controller and battery"
+      ],
+      "aliases": [],
+      "keywords": [
+        "electronics",
+        "solar"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Read the panel, controller, battery, and device specifications.",
+            "Use compatible rated components and the manufacturer's wiring instructions.",
+            "Protect equipment from water and inspect connections before use."
+          ]
+        }
+      ],
+      "cautions": [
+        "Do not connect a bare solar panel directly to a battery unless the equipment explicitly supports that arrangement."
+      ],
+      "sources": [
+        "https://www.energy.gov/energysaver/planning-home-solar-electric-system"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/repair.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "coding",
+      "title": "Offline coding: your first Python script",
+      "category": "computing",
+      "summary": "Prepare the tools before connectivity is lost.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [
+        "Computer with Python installed"
+      ],
+      "aliases": [],
+      "keywords": [
+        "computing",
+        "coding"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Install Python and save its documentation on your computer while online.",
+            "Create hello.py containing: print('Hello, offline world!')",
+            "Run python3 hello.py in a terminal on your computer. Save dependencies and examples in advance."
+          ]
+        }
+      ],
+      "cautions": [
+        "Code shown here is reference text. The mobile app does not execute downloaded programs."
+      ],
+      "sources": [
+        "https://docs.python.org/3/tutorial/"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "network",
+      "title": "Build a local network without internet",
+      "category": "networks",
+      "summary": "Devices can communicate locally even without an uplink.",
+      "language": "en",
+      "level": "advanced",
+      "region": "Global",
+      "audience": "Trained readers",
+      "prerequisites": [
+        "Router",
+        "Computer",
+        "Power"
+      ],
+      "aliases": [],
+      "keywords": [
+        "networks",
+        "network"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Power a router and connect devices to its local Wi-Fi network.",
+            "Use a unique network password and record the router's local address.",
+            "On a trusted test network, serve a dedicated folder from a computer using python3 -m http.server 8000; open its local IP and port on another device."
+          ]
+        }
+      ],
+      "cautions": [
+        "A local network does not restore global internet. The example server has no authentication or encryption; never expose private files or forward its port to the internet."
+      ],
+      "sources": [
+        "https://docs.python.org/3/library/http.server.html"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "satellite",
+      "title": "Satellite communication: prepare equipment",
+      "category": "communications",
+      "summary": "Connectivity depends on supported hardware, service, and location.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [
+        "Supported phone or satellite terminal"
+      ],
+      "aliases": [],
+      "keywords": [
+        "communications",
+        "satellite"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Check device compatibility, service coverage, activation, and subscription requirements before travel.",
+            "Download the manufacturer's instructions and practice an approved test.",
+            "Use the device's instructions for sky visibility, antenna placement, and emergency messaging."
+          ]
+        }
+      ],
+      "cautions": [
+        "Installing this app does not add satellite capability. Availability depends on equipment, service, and region."
+      ],
+      "sources": [
+        "https://support.apple.com/en-ie/105097"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "radio",
+      "title": "Radio communication essentials",
+      "category": "communications",
+      "summary": "Prepare a compatible channel and operating procedure.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [
+        "Compatible radios"
+      ],
+      "aliases": [],
+      "keywords": [
+        "communications",
+        "radio"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Read the equipment manual and local operating requirements.",
+            "Agree on a channel, check-in schedule, and short message format.",
+            "Test range with your group before relying on the radio."
+          ]
+        }
+      ],
+      "cautions": [
+        "Permitted frequencies and licensing differ by region. A phone alone is not a general-purpose radio transceiver."
+      ],
+      "sources": [
+        "https://www.itu.int/en/ITU-D/Emergency-Telecommunications/Pages/default.aspx"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "shutdown",
+      "title": "Prepare for an internet shutdown",
+      "category": "preparedness",
+      "summary": "Keep essential information and local coordination available.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "preparedness",
+        "shutdown"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Download maps, contacts, documents, and reference packs ahead of time.",
+            "Agree on meeting points and offline check-in times.",
+            "Keep charging equipment ready and learn the local communication tools you already have."
+          ]
+        }
+      ],
+      "cautions": [
+        "No app can guarantee connectivity during a shutdown. Local links still require power and compatible devices."
+      ],
+      "sources": [
+        "https://www.accessnow.org/keepiton/"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/kit.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "wildfire",
+      "title": "Wildfire evacuation readiness",
+      "category": "disasters",
+      "summary": "Prepare to leave before routes are threatened.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "disasters",
+        "wildfire"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Identify more than one evacuation route before fire approaches.",
+            "Keep essentials ready and follow evacuation instructions.",
+            "Avoid smoke exposure and do not enter a fire-affected area to retrieve belongings."
+          ]
+        }
+      ],
+      "cautions": [
+        "Offline maps do not show live fire boundaries or road closures."
+      ],
+      "sources": [
+        "https://www.ready.gov/wildfires"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/shelter.svg"
+      ],
+      "related": []
+    },
+    {
+      "id": "storm",
+      "title": "Storms and extreme weather",
+      "category": "disasters",
+      "summary": "Know the safest shelter before the weather changes.",
+      "language": "en",
+      "level": "basic",
+      "region": "Global",
+      "audience": "General public",
+      "prerequisites": [],
+      "aliases": [],
+      "keywords": [
+        "disasters",
+        "storm"
+      ],
+      "sections": [
+        {
+          "heading": "Learn & repair",
+          "steps": [
+            "Choose a suitable shelter for your local hazards.",
+            "Secure essential supplies and charged lights before severe conditions arrive.",
+            "Follow local warnings when available; inspect damage only when safe."
+          ]
+        }
+      ],
+      "cautions": [
+        "Hazard-specific shelter advice differs. A downloaded reference is not a forecast."
+      ],
+      "sources": [
+        "https://www.ready.gov/severe-weather"
+      ],
+      "license": "Original editorial summary; source rights review pending",
+      "review_status": "draft",
+      "reviewer": null,
+      "reviewed_at": null,
+      "translation_review": "pending",
+      "updated_at": "2026-10-20",
+      "illustrations": [
+        "assets/illustrations/shelter.svg"
+      ],
+      "related": []
+    }
+  ]
+}

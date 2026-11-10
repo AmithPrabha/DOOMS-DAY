@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "food-fr",
+  "region": "France",
+  "region_code": "FR",
+  "status": "blocked_pending_specialist_and_photographs",
+  "distribution_note": "Cultivation or retail availability must be verified for the specific region; this register is not a distribution claim.",
+  "required_languages": [
+    "en",
+    "ar",
+    "ml",
+    "hi",
+    "ta",
+    "te",
+    "es",
+    "fr",
+    "ru"
+  ],
+  "cultivated": [
+    {
+      "scientific_name": "Malus domestica",
+      "local_names": [
+        "Pomme"
+      ],
+      "scope": "Known cultivated food from a reliable supplier only; never identify wild specimens from this draft",
+      "distribution": null,
+      "identification_features": null,
+      "edible_parts": null,
+      "preparation": null,
+      "toxic_parts": null,
+      "dangerous_lookalikes": null,
+      "reference_photographs": [],
+      "specialist_review": null,
+      "translation_reviews": {}
+    },
+    {
+      "scientific_name": "Pyrus communis",
+      "local_names": [
+        "Poire"
+      ],
+      "scope": "Known cultivated food from a reliable supplier only; never identify wild specimens from this draft",
+      "distribution": null,
+      "identification_features": null,
+      "edible_parts": null,
+      "preparation": null,
+      "toxic_parts": null,
+      "dangerous_lookalikes": null,
+      "reference_photographs": [],
+      "specialist_review": null,
+      "translation_reviews": {}
+    },
+    {
+      "scientific_name": "Prunus persica",
+      "local_names": [
+        "Pêche"
+      ],
+      "scope": "Known cultivated food from a reliable supplier only; never identify wild specimens from this draft",
+      "distribution": null,
+      "identification_features": null,
+      "edible_parts": null,
+      "preparation": null,
+      "toxic_parts": null,
+      "dangerous_lookalikes": null,
+      "reference_photographs": [],
+      "specialist_review": null,
+      "translation_reviews": {}
+    }
+  ],
+  "wild_food": {
+    "status": "not_publishable",
+    "references": [],
+    "required_specialist_review": true
+  },
+  "publication_requirements": [
+    "Verified regional distribution and species identity",
+    "Preparation, edible/toxic parts and lookalikes reviewed",
+    "Licensed real reference photographs with caption, creator, source and hash",
+    "Independent photograph and content review",
+    "All required photos packaged offline",
+    "Independent translation review for each language"
+  ]
+}

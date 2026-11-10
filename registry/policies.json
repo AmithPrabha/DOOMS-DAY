@@ -1,0 +1,80 @@
+[
+  {
+    "id": "P01",
+    "title": "Android API target and native page alignment",
+    "url": "https://developer.android.com/google/play/requirements/target-sdk",
+    "verified_at": "2026-10-20",
+    "verified_build": null,
+    "requirement": "API 36; verify all native libraries on a 16 KB device",
+    "applicability": "Required for production submission",
+    "implementation": "android/app/build.gradle.kts",
+    "status": "pending_evidence",
+    "outstanding_actions": "API 36; verify all native libraries on a 16 KB device",
+    "evidence": []
+  },
+  {
+    "id": "P02",
+    "title": "Apple SDK, privacy manifest and required reason APIs",
+    "url": "https://developer.apple.com/news/upcoming-requirements/",
+    "verified_at": "2026-10-20",
+    "verified_build": null,
+    "requirement": "Xcode 26+ and current submission SDK; audit every native dependency",
+    "applicability": "Required for production submission",
+    "implementation": "ios/Runner/PrivacyInfo.xcprivacy",
+    "status": "pending_evidence",
+    "outstanding_actions": "Xcode 26+ and current submission SDK; audit every native dependency",
+    "evidence": []
+  },
+  {
+    "id": "P03",
+    "title": "Google health content declaration and disclosures",
+    "url": "https://support.google.com/googleplay/android-developer/answer/16679511?hl=en",
+    "verified_at": "2026-10-20",
+    "verified_build": null,
+    "requirement": "Complete health declaration, medical disclosures and public privacy URL",
+    "applicability": "Required for production submission",
+    "implementation": "docs/release.md",
+    "status": "pending_evidence",
+    "outstanding_actions": "Complete health declaration, medical disclosures and public privacy URL",
+    "evidence": []
+  },
+  {
+    "id": "P04",
+    "title": "Apple medical content",
+    "url": "https://developer.apple.com/app-store/review/guidelines/",
+    "verified_at": "2026-10-20",
+    "verified_build": null,
+    "requirement": "Reviewed reference content; no dose calculators; clinical consultation reminder",
+    "applicability": "Required for production submission",
+    "implementation": "lib/features/settings.dart",
+    "status": "pending_evidence",
+    "outstanding_actions": "Reviewed reference content; no dose calculators; clinical consultation reminder",
+    "evidence": []
+  },
+  {
+    "id": "P05",
+    "title": "Google personal account testing",
+    "url": "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+    "verified_at": "2026-10-20",
+    "verified_build": null,
+    "requirement": "If personal account created after 2023-11-13: 12 opted-in testers for 14 consecutive days",
+    "applicability": "Account-dependent",
+    "implementation": "docs/release.md",
+    "status": "pending_evidence",
+    "outstanding_actions": "If personal account created after 2023-11-13: 12 opted-in testers for 14 consecutive days",
+    "evidence": []
+  },
+  {
+    "id": "P06",
+    "title": "16 KB compatibility",
+    "url": "https://developer.android.com/guide/practices/page-sizes",
+    "verified_at": "2026-10-20",
+    "verified_build": null,
+    "requirement": "Inspect release native libraries and test on a 16 KB device",
+    "applicability": "Required for production submission",
+    "implementation": "docs/release.md",
+    "status": "pending_evidence",
+    "outstanding_actions": "Inspect release native libraries and test on a 16 KB device",
+    "evidence": []
+  }
+]
